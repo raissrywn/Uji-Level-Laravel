@@ -52,7 +52,7 @@
                     @if (auth()->user()->level == "admin" || auth()->user()->level == "kasir")
                     <a class="collapse-item" href="{{url('/makanans')}}">
                         <i class="fas fa-fw fa-shopping-cart"></i>
-                        <span class="ml-1">Food Table</span>
+                        <span class="ml-1">Tabel Makanan</span>
                     </a>
                     @endif
                 </div>
